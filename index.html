@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-        <title> Botões em Quadrado</title>
+        <title> Calculadora</title>
         <meta charset = "UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 	<link rel="stylesheet" href="style.css">
@@ -10,9 +10,9 @@
 	
 <body>
     
-	<div>
-		<input type="text" placeholder="Escreve ai">
-	<div class="quadrado">
+	<div id="calculadora">
+		<input type="text" id="display" disabled>
+	<div class="teclado">
                 <button onclick="limpar()">C</button>
                 <button onclick="adicionarValor('/')">/</button>
                 <button onclick="adicionarValor('*')">*</button>
