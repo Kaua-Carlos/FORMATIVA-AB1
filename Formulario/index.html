@@ -6,11 +6,21 @@
     <body>
       <h1>Musicas Favoritas</h1>
       <form method="post" action="https://formtester.goodbytes.be/post.php">
-        <input type="text" id="nomeMusica" name="nomeMusica" placeholder="FAZ O L">
         
-        <input type="text" id="nomeArtista" name="nomeArtista" placeholder="ARTISTAAAAA">
+        <div>
+          <label for="nomeMusica">Nome da Musica </label>
+          <input type="text" id="nomeMusica" name="nomeMusica" placeholder="FAZ O L">
+        </div>
         
-        <input type="password" id="senha" name="senha" placeholder="ROUBAREI SEUS DADOS HIHIHIHIHI">
-
+        <div>
+          <label for="nomeArtista">Nome do Artista</label>
+          <input type="text" id="nomeArtista" name="nomeArtista" placeholder="ARTISTAAAAA">
+        </div>
+        
+        <div>
+          <label for="senha">Sua senha</label>
+          <input type="password" id="senha" name="senha" placeholder="ROUBAREI SEUS DADOS HIHIHIHIHI">
+        </div>
+        
         <button type="submit"> ENVIAR </button>
       </form>
